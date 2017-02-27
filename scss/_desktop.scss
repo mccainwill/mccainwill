@@ -1,0 +1,75 @@
+@media screen and (min-width: 1000px){
+
+	.intro{
+
+		h2{
+			font-size: 2em;
+		}
+	}
+
+	.case_study{
+
+		.concepting{
+		}
+
+		.wireframes, .thumbnails, .mockups{
+
+			ul{
+			}
+		}
+
+		.details{
+
+			a{
+				width: 15%;
+			}
+		}
+
+		.writeups{
+			width: 70%;
+		}
+
+		.challenge, .concepting, .markup, .finished{
+		}
+
+	}
+
+	.sitelink{
+		font-size: 1.4em;
+	}
+
+	.list{
+		width: 40px;
+	}
+
+	.portfolio_select{
+
+		.project{
+
+			h2{
+				font-size: 1.4em;
+				height: auto;
+			}
+
+			p{
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	.frontend{
+
+		.project{
+
+			h2{
+				font-size: 1.4em;
+			}
+
+			p{
+				height: auto;
+				font-size: 1.2em;
+			}
+		}
+	}
+
+}

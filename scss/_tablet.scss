@@ -1,0 +1,135 @@
+@media screen and (min-width:700px){
+
+	header{
+
+		ul{
+			border-top: thick solid #AAA;
+			border-bottom:thick solid #AAA;
+			display: flex;
+
+			li{
+				width: 30%;
+				display: inline-block;
+				flex: 1;
+
+				a{
+					background: none;
+					color:#000;
+					margin: auto;
+					border: none;
+				}
+			}
+		}
+
+	}
+
+	main{
+		// width: 90%;
+	}
+
+	.intro{
+
+		h2{
+			font-size: 1.5em;
+		}
+	}
+
+	.intro_wrapper{
+		// width: 70%;
+	}
+
+	.intro_subsections{
+
+		// width: 90%;
+		margin: 0 auto;
+
+		article{
+			width: 45%;
+		}
+
+		.intro_design{
+			margin-right: 5%;
+			float: left;
+		}
+
+		.intro_frontend{
+			margin-left: 5%;
+			float: right;
+		}
+	}
+
+	.portfolio_select{
+
+		.project{
+			width: 40%;
+    		float: left;
+
+    		h2{
+				height: 30px;
+    		}
+
+    		p{
+				height: 100px;
+				font-size: 1em;
+			}
+		}
+	}
+
+	.case_study{
+
+		.concepting{
+			// width: 90%;
+		}
+
+		.wireframes, .thumbnails, .mockups{
+			width: 30%;
+			margin: 0 1.5%;
+			flex:1;
+			// border-bottom: none;
+			// height: auto;
+		}
+
+		.details{
+
+			a{
+				width: 15%;
+				max-width: 150px;
+			}
+		}
+
+		.writeups{
+			width: 70%;
+		}
+	}
+
+	.slideshow{
+		display: flex;
+	}
+
+	.sitelink{
+		font-size: 1.2em;
+	}
+
+	.list{
+		width: 30px;
+	}
+
+	.frontend{
+
+		.project{
+			float: left;
+			width: 45%;
+			margin: 0 2.5%;
+			padding: 40px 0;
+
+			h2{
+				font-size: 1.2em;
+			}
+
+			p{
+				height: 100px;
+				font-size: 1em;
+			}
+		}
+	}
+}

@@ -1,0 +1,539 @@
+@import "clearfix";
+@import "fonts";
+
+/* General Styles */
+
+body{
+	padding:0;
+	margin:0;
+	position: relative; 
+	line-height: 1.6em;
+	background: linear-gradient(#CFD2E6, #FFF);
+	background-repeat: no-repeat;
+	background-size: 100% 200px;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+/* Header Styles */
+
+header{
+
+	padding: 20px 0 0 0;
+	margin: 0 auto;
+
+	img{
+		display: block;
+		margin: 0 auto;
+		width: 250px;
+	}
+
+	h1{
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		text-align: center;
+		font-size:2em;
+		margin-top:0;
+		color: #000;
+	}
+
+	hr{
+		width:30%;
+	}
+
+	h2{
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		text-align: center;
+		font-size: 1em;
+		color:#607D8B;
+	}
+
+	ul{
+		padding:0;
+		margin:0 auto;
+		text-align: center;
+		font-family:'Josefin Sans', sans-serif;
+		font-weight: 400;
+    	border-radius: 5px;
+
+		li{
+			text-align: center;
+			list-style-type: none;
+
+			a{
+				display: block;
+				padding:10px;
+				font-family: 'Josefin Sans', sans-serif;
+				font-weight: 400;
+				text-decoration: none;
+				background: #AAA;
+    			color: #FFF;
+    			margin: 10px 0;
+    			border: #504C41 2px solid;
+			}
+			
+		}
+	}
+}
+
+a.about:hover{
+	background: #AAA;
+	color: #FFF;
+	transition: .4s ease;
+}
+
+a.design:hover{
+	background: #AAA;
+	color: #FFF;
+	transition: .4s ease;
+}
+
+a.frontend:hover{
+	background: #AAA;
+	color: #FFF;
+	transition: .4s ease;
+}
+
+main{
+	margin: 0 auto;
+	padding-bottom: 103px;
+}
+
+/* Home */
+
+.intro{
+
+	font-family: 'Cardo', serif;
+	font-weight: 400;
+	text-align: center;
+	margin: 2.5%;
+	padding: 10px;
+	display: block;
+	background: #FFF;
+	border: 1px solid #DDD;
+
+	h1{
+		text-align: center;
+		font-size: 2em;
+		margin: 20px;
+	}
+
+	h2{
+		font-size: 2em;
+		margin: 25px;
+	}
+
+	p{
+		width:90%;
+		margin: 10px auto;
+		font-size: 1.2em;
+		font-family: "Josefin Sans", sans-serif;
+		font-weight: 400;
+	}
+
+	img{
+		width: 25%;
+	}
+}
+
+.intro_wrapper{
+	background-image: url(../img/sayagata.png);
+	padding: 5px;
+	margin: 20px auto;
+	box-sizing: border-box;
+}
+
+.intro_about{
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* Portfolio */
+
+.portfolio_select{
+
+	.project{
+    	text-align: center;
+    	margin: 0 5%;
+    	padding-bottom: 20px;
+
+    	h2{
+    		font-family: 'Cardo', serif;
+    		font-weight: 400;
+    	}
+
+    	ul{
+    		list-style-type: none;
+    		// padding:0;
+    		margin: 30px auto;
+    		display: block;
+    	}
+
+    	li{
+    		display: inline-block;
+
+    		img{
+    			height: 200px;
+    		}
+    	}
+
+    	p{
+    		font-family: "Josefin Sans", sans-serif;
+    		font-weight: 400;
+    		font-size: 1.2em;
+    	}
+
+    	.projectpic{
+    		height: 200px;
+    	}
+	}
+}
+
+/* Front End */
+
+.frontend{
+
+	.project{
+
+		width: 60%;
+		text-align: center;
+		margin: 0 auto;
+		font-family: "Cardo";
+		font-weight: 400;
+		display: block;
+		margin-bottom: 20px;
+
+		p{
+			font-size: 1.2em;
+		}
+
+		p, span{
+			font-family: "Josefin Sans", sans-serif;
+			font-weight: 400;
+		}
+
+
+		img{
+			height: 250px;
+			background: #D6D0D0;
+			width: 100%;
+			max-width: 300px;
+		}
+
+		ul{
+			list-style-type: none;
+			padding:0;
+			margin-top:0;
+
+			li{
+				display: inline-block;
+				font-family: 'Josefin Sans', sans-serif;
+				font-weight: 400;
+				padding: 10px;
+				background: #CCC;
+				margin-bottom: 5px;
+			}
+		}
+	}
+}
+
+.sitelink {
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    background: #7A9BB7;
+    color: #FFF;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 8px;
+    padding: 5px;   
+    transition: .3s ease;
+
+    &:hover{
+    	width: 70%;
+    	border-left: 4px solid #3A4B58;
+    	border-right: 4px solid #3A4B58;
+    	transition: .3s ease;
+    	color: #000;
+    }
+}
+
+.list{
+    display: block;
+    width: 40px;
+    color:#FFF;
+    text-decoration: none;
+
+    &:hover{
+    	
+    	transition: .3s ease;
+    	color: #000;
+    }
+}
+
+/* Case Study */
+
+.case_study{
+
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		margin-bottom: 40px;
+
+		&:nth-child(odd){
+			// background: linear-gradient(#FFF, #EEE, #FFF);
+		}
+
+		h1{
+			color: red;
+		}
+
+		h2{
+			font-family: 'Cardo', serif;
+			font-weight: 600;
+		    font-size: 1.6em;
+		    color: #000;
+		}
+
+		p{
+			font-size: 1.2em;
+		    margin: 20px auto;
+		}	
+
+		hr{
+			// margin: 30px 0;
+		}
+	
+
+	.challenge{
+		margin: 50px auto 0 auto;
+
+		ol{
+			padding:0;
+			margin: 0;
+		}
+
+		li{
+		    color: #000;
+		    margin-left: 50px;
+		    padding: 10px;
+		    border-radius: 5px;
+		    font-family: 'Josefin Sans', sans-serif;
+		    font-weight: 600;
+		    font-size: 1.2em;
+		}
+	}
+
+	.concepting{
+		margin-top:30px;
+		margin: 0 auto;
+
+		ul{
+			padding:0;
+			list-style-type: none;
+
+			li{
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.slide_wrapper{
+		background: #EEE;
+		margin-bottom: 30px;
+	}
+
+	.controls{
+		text-align: center;
+	}
+
+	.prev{
+		float: left;
+	}
+
+	.next{
+		float: right;
+	}
+
+	.wireframes, .thumbnails, .mockups{
+		width: 80%;
+    	margin: 10px auto;
+    	overflow: hidden;
+    	border-bottom: 3px solid #444;
+	
+    	p{
+    		text-align: center;
+    	}
+
+    	ul{
+    		padding: 0;
+    		margin: 0;
+    		list-style-type: none;
+    		position: relative;
+    	
+    		li{
+    			position: absolute;
+    			left: 0;
+    			top: 0;
+    			height: 100%;
+    			background: #EEE;
+    			display: block;
+    			opacity: 0;
+    			transition: .5s ease;
+
+    			a{
+    				display: block;
+    				height: 200px;
+    				border-bottom: 2px solid #444;
+    				overflow: hidden;
+
+    				&:hover{
+    					height: 196px;
+    					border-bottom: 6px solid #444;
+    				}
+    			}
+    		}
+
+    		.active{
+    			z-index: 10;
+    			opacity: 1;
+    			transition: .5s ease;
+    			position: relative;
+    		}
+
+    		.last-active{
+    			z-index: 9;
+    			opacity: 0;
+    			transition: .5s ease;
+    		}
+    	}
+	}
+
+	.details{
+		position: relative;
+		display: block;
+		width: 100%;
+		margin: 30px 0;
+
+		a{
+			display: block;
+			margin-top: 70px;
+			width: 15%;
+
+			img{
+				width: 80%;
+			}
+		}
+
+		h3{
+			position: absolute;
+			font-size: 1.4em;
+    		padding: 10px;
+    		top: 0;
+    		width: 20%;
+    		margin: 0 40%;
+    		border-radius: 4px;
+    		text-align: center;
+    		opacity: 0;
+    	}
+
+    	p{
+    		background: #EEE;
+    		width: 100%;
+    		margin: 50px auto;
+    		opacity: 0;
+    		display: none;
+    		float: left;
+    	}
+
+    	.active{
+    		z-index: 10;
+    		opacity: 1;
+    		display: block;
+    		transition: .5s ease;
+    	}
+
+    	.last-active{
+    		z-index: 9;
+    		opacity: 0;
+    		transition: .5s ease;
+    	}
+	}
+
+	.writeups{
+		position: relative;
+		float: left;
+    	width: 70%;
+    	display: block;
+    	padding-top: 20px;
+	}
+
+	.markup{
+		margin: 0 auto;
+
+		ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+		
+			li{
+				width: 30%;
+				display: inline-block;
+
+				&:nth-child(2){
+					margin-left: 1.5%;
+					margin-right: 1.5%;
+				}
+			}
+		}
+
+		img{
+			width: 100%;
+		}
+	}
+
+	.finished{
+		margin: 40px auto;
+		text-align: center;
+	}
+
+	.challenge, .concepting, .markup, .finished{
+		// width: 90%;
+	}
+
+}
+
+/* Footer */
+
+footer{
+	padding: 20px;
+	background: #EBE5D9;
+	border-top: 3px solid #AAA;
+	position: fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height: 40px;
+	line-height: 40px;
+	z-index: 10;
+
+	p{
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		font-size: 1.2em;
+		text-align: center;
+		margin:0;
+	}
+}
+
+@import "tablet";
+@import "desktop";
